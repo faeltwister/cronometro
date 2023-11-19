@@ -2,7 +2,9 @@ import React from 'react'
 
 const Timerdisplay = () => {
   return (
-    <div>Timerdisplay</div>
+    <div className='timer-display'>
+        00:00
+    </div>
   )
 }
 

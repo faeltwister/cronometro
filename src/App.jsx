@@ -1,6 +1,6 @@
 
 import './App.css'
-import Timer from './cronometro/Timer'
+import Timer from './components/Timer'
 
 function App() {
 

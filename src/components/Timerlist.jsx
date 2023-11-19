@@ -1,12 +1,13 @@
 import React from 'react'
 
-const Timerlist = () => {
+const Timerlist = ({laps}) => {
   return (
     <div className='timer-laps'>
-        <h3>Voltas:</h3>
+        <h3>Registro:</h3>
         <ul>
-          <li>Volta 1: 01:05</li>
-          <li>Volta 2: 03:15</li>
+          {laps.map((lap,index)=>(
+              <li key={index}>{lap}</li>
+          ))}
         </ul>
     </div>
   )

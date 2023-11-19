@@ -2,6 +2,9 @@
 
 Este é um APP de cronômetro em React, com exibição, botões de controle e funcionalidade de registro.
 
+![Logo]('https://github.com/faeltwister/cronometro/blob/main/src/assets/cronometro.png?raw=true')
+
+
 ## Instalação
 
 Para utilizar este componente Timer em seu projeto React, siga os passos abaixo:

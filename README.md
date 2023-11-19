@@ -1,8 +1,13 @@
-# React + Vite
+# Componente Timer em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um APP de cronômetro em React, com exibição, botões de controle e funcionalidade de registro.
 
-Currently, two official plugins are available:
+## Instalação
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para utilizar este componente Timer em seu projeto React, siga os passos abaixo:
+
+1. Instale o pacote:
+
+   ```bash
+   npm install --save caminho-para-o-seu-componente-timer
+

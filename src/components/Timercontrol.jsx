@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Timercontrol = () => {
+const Timercontrol = ({onStart, onStop}) => {
   return (
     <div className='timer-control'>
-      <button>Iniciar</button>
-      <button>Zerar</button>
+      <button onClick={onStart}>Iniciar</button>
+      <button onClick={onStop}>Zerar</button>
     </div>
   )
 }
